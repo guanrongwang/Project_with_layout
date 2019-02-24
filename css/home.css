@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+
+body{
+	background: url("../images/skyme.JPG") no-repeat center center fixed;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+h1 {
+	display: none;
+}
+
+#intro_card {
+	width: 70%;
+	height: 50%;
+	margin: auto;
+	margin-top: 100px;
+	background-color: rgba(255,255,255,0);
+	border-style: solid;
+	padding: 50px;
+	top: 20%;
+	z-index: 1;
+}
+
+
+
+
+#intro_card #text {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 3%;
+	font-size: 1.8em;
+	color: blue;
+	opacity: 1;
+	z-index: 999;
+	color: black;
+}
+
